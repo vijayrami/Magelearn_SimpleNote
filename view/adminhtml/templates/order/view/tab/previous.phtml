@@ -1,0 +1,57 @@
+<?php
+$currentOrder = $this->getCurrentOrder();
+$previousOrders = $this->getPreviousOrders($currentOrder);
+?>
+<style>
+.previous-order-table {
+	width:100%;
+}
+.previous-order-table tr td {
+	text-align:center;
+}
+</style>
+<table class="previous-order-table team8-question-table">
+	<thead>
+		<th>Order ID</th>
+		<th>Email</th>
+
+		<th>Order Date</th>
+		<th>Price</th>
+		<th>Products</th>
+		<th>Order Status</th>
+		<th>Days Since Last Order</th>
+	</thead>
+<?php
+$previousOrder = false;
+$timeSinceLast = "";
+foreach($previousOrders as $ord)
+{
+	$order = $this->getOrder($ord['entity_id']);
+	$previousOrder = $order;
+
+	$items = $order->getAllItems();
+
+	?>
+	<tr>
+		<td><a target="_blank" href="<?= $this->getUrl("sales/order/view",["order_id" => $order->getId()]); ?>"><?= $order->getIncrementId(); ?></a></td>
+		<td><?= $order->getCustomerEmail(); ?></td>
+		<td><?= $order->getCreatedAt(); ?></td>
+		<td><?= number_format($order->getGrandTotal(), 2, '.', '').' '.$order->getOrderCurrencyCode(); ?></td>
+		<td>
+			<?php foreach($items as $item)
+			{ ?>
+				<p><a target="_blank" href="<?= $this->getUrl("sales/order/view",["order_id" => $order->getId()]); ?>"><?= $item->getName(); ?></a></p>
+
+			<?php }?>
+		</td>
+		<td><?= $order->getStatusLabel() ?> (<?= $order->getState() ?>)</td>
+		<td><?= $this->getDaysSinceLastOrder($previousOrder, $currentOrder) ?></td>
+	</tr>
+
+
+
+<?php
+}
+
+?>
+</table>

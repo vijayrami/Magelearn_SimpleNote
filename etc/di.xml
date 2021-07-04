@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magelearn\SimpleNote\Api\Data\SimpleNoteInterface" type="Magelearn\SimpleNote\Model\Data\SimpleNote" />
+    <preference for="Magelearn\SimpleNote\Api\SimpleNoteManagementInterface" type="Magelearn\SimpleNote\Model\SimpleNoteManagement" />
+    <virtualType name="Magento\Sales\Model\ResourceModel\Order\Grid" type="Magento\Sales\Model\ResourceModel\Grid">
+        <arguments>
+            <argument name="columns" xsi:type="array">
+                <item name="simple_note" xsi:type="string">sales_order.simple_note</item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>

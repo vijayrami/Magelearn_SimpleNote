@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/routes.xsd">
+    <router id="admin">
+		<route id="simplenotetab" frontName="simplenotetab">
+            <module name="Magelearn_SimpleNote" />
+        </route>
+        <route id="previoustab" frontName="previoustab">
+            <module name="Magelearn_SimpleNote" />
+        </route>
+    </router>
+</config>

@@ -1,0 +1,13 @@
+<div class="order-simple-note-wrapper">
+    <div class="field">
+        <label class="label" for="order-simple-note">
+            <span data-bind="i18n: 'Add a note to this order (optional)'"></span>
+        </label>
+        <input type="text"
+               class="input-text"
+               id="order-simple-note"
+               data-bind="value: simpleNote, event: {change: saveSimpleNote}"
+               placeholder="Add note"
+        />
+    </div>
+</div>

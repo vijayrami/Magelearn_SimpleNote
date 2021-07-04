@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="Magelearn_SimpleNote::css/questions-backend.css" />
+	</head>
+   <body>
+       <!--add custom block -->
+       <referenceBlock name="order_additional_info">
+           <block class="Magelearn\SimpleNote\Block\Adminhtml\Order\View\View" name="sales_custom_view" template="Magelearn_SimpleNote::order/view/view.phtml" />
+       </referenceBlock>
+       <referenceContainer name="left">
+       <referenceBlock name="sales_order_tabs">
+           <action method="addTab">
+               <argument name="name" xsi:type="string">Order Note</argument>
+               <argument name="block" xsi:type="string">Magelearn\SimpleNote\Block\Adminhtml\Order\View\Tab\SimpleNote</argument>
+           </action>
+           <action method="addTab">
+	            <argument name="name" xsi:type="string">order_previous</argument>
+	            <argument name="block" xsi:type="string">Magelearn\SimpleNote\Block\Adminhtml\Order\View\Tab\Previous</argument>
+	        </action>
+       </referenceBlock>
+       </referenceContainer>
+   </body>
+</page>
