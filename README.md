@@ -20,3 +20,5 @@ Display Customer's previous orders in new tab in Sales order view page in admin.
 [![000000006-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/zGYnxk4f/000000006-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/Yh8G9Qrc)
 
 [![000000006-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/mrDN9g03/000000006-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/cvpny016)
+
+[![Order-000000006.png](https://i.postimg.cc/PrXLJRGY/Order-000000006.png)](https://postimg.cc/pySV1kLL)
