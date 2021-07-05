@@ -13,4 +13,4 @@ Display Customer's previous orders in new tab in Sales order view page in admin.
 
 [![Checkout.png](https://i.postimg.cc/tRfJ5C8R/Checkout.png)](https://postimg.cc/Lhtm4RHG)
 
-[![Screenshot-from-2021-07-05-20-22-48.png](https://i.postimg.cc/8cr13Mxp/Screenshot-from-2021-07-05-20-22-48.png)](https://postimg.cc/0KPRKM8F)
+[![Screenshot-from-2021-07-05-20-22-48.png](https://i.postimg.cc/y8KZm8Sg/Screenshot-from-2021-07-05-20-22-48.png)](https://postimg.cc/PP6JhhyT)
