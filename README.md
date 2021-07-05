@@ -6,6 +6,7 @@ Display Customer's previous orders in new tab in Sales order view page in admin.
 ### Features
 
 - Add new field in checkout
+- Add Custom validation for this new field.
 - Add new tab in sales order view page.
 - Modify sales order view page info at admin.
 - Modify sales order view page info at front end.
