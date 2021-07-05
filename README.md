@@ -10,3 +10,5 @@ Display Customer's previous orders in new tab in Sales order view page in admin.
 - Modify sales order view page info at admin.
 - Modify sales order view page info at front end.
 - Display customer's previous orders in new tab in Sales order view page at admin.
+
+[![Checkout.png](https://i.postimg.cc/tRfJ5C8R/Checkout.png)](https://postimg.cc/Lhtm4RHG)
