@@ -18,8 +18,10 @@ Display Customer's previous orders in new tab in Sales order view page in admin.
 
 [![Screenshot-from-2021-07-05-20-29-39.png](https://i.postimg.cc/8P9yNW98/Screenshot-from-2021-07-05-20-29-39.png)](https://postimg.cc/8jddbFTw)
 
-[![000000006-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/zGYnxk4f/000000006-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/Yh8G9Qrc)
+[![000000003-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/7h0Tj7Xm/000000003-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/5Q90CXhC)
 
-[![000000006-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/mrDN9g03/000000006-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/cvpny016)
+[![000000003-Orders-Operations-Sales-Magento-Admin-1.png](https://i.postimg.cc/qqxv8G1V/000000003-Orders-Operations-Sales-Magento-Admin-1.png)](https://postimg.cc/MfXww1kd)
+
+[![000000004-Orders-Operations-Sales-Magento-Admin.png](https://i.postimg.cc/W4qp9V57/000000004-Orders-Operations-Sales-Magento-Admin.png)](https://postimg.cc/nsZtzybs)
 
 [![Order-000000006.png](https://i.postimg.cc/PrXLJRGY/Order-000000006.png)](https://postimg.cc/pySV1kLL)
