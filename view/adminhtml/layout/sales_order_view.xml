@@ -11,7 +11,7 @@
        <referenceContainer name="left">
        <referenceBlock name="sales_order_tabs">
            <action method="addTab">
-               <argument name="name" xsi:type="string">Order Note</argument>
+               <argument name="name" xsi:type="string">order_note</argument>
                <argument name="block" xsi:type="string">Magelearn\SimpleNote\Block\Adminhtml\Order\View\Tab\SimpleNote</argument>
            </action>
            <action method="addTab">
